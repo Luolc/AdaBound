@@ -13,6 +13,8 @@ Based on [Adaptive Gradient Methods with Dynamic Bound of Learning Rate](https:/
 ## Installation
 
 AdaBound requires Python 3.6.0 or later.
+We currently provide PyTorch version and AdaBound for TensorFlow is coming soon.
+
 The preferred way to install AdaBound is via `pip` with a virtual environment.
 Just run `pip install adabound` in your Python environment and you are ready to go!
 
