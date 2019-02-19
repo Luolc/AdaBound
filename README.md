@@ -21,8 +21,16 @@ In *Proc. of ICLR 2019*.
 AdaBound requires Python 3.6.0 or later.
 We currently provide PyTorch version and AdaBound for TensorFlow is coming soon.
 
+### Installing via pip
+
 The preferred way to install AdaBound is via `pip` with a virtual environment.
-Just run `pip install adabound` in your Python environment and you are ready to go!
+Just run 
+```bash
+pip install adabound
+```
+in your Python environment and you are ready to go!
+
+### Using source code
 
 As AdaBound is a Python class with only 100+ lines, an alternative way is directly downloading
 [adabound.py](./adabound/adabound.py) and copying it to your project.
@@ -37,7 +45,7 @@ optimizer = adabound.AdaBound(model.parameters(), lr=1e-3, final_lr=0.1)
 
 As described in the paper, AdaBound is an optimizer that behaves like Adam at the beginning of
 training, and gradually transforms to SGD at the end.
-The `final_lr` parameter indicates AdaBound would transforms to a SGD with this learning rate.
+The `final_lr` parameter indicates AdaBound would transforms to an SGD with this learning rate.
 
 For most cases, you can just use the default hyperparameter `final_lr=0.1` without tuning it. 
 The performance is very robust regardless the value of `final_lr`.
