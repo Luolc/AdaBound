@@ -1,4 +1,8 @@
 # AdaBound
+[![PyPI - Version](https://img.shields.io/pypi/v/adabound.svg?style=flat)](https://pypi.org/project/adabound/)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/adabound.svg)](https://pypi.org/project/adabound/)
+[![PyPI - Wheel](https://img.shields.io/pypi/wheel/adabound.svg?style=flat)](https://pypi.org/project/adabound/)
+[![GitHub - LICENSE](https://img.shields.io/github/license/Luolc/AdaBound.svg?style=flat)](./LICENSE)
 
 An optimizer that trains as fast as Adam and as good as SGD, for developing state-of-the-art 
 deep learning models on a wide variety of pupolar tasks in the field of CV, NLP, and etc.
