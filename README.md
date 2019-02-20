@@ -51,6 +51,8 @@ For most cases, you can just use the default hyperparameter `final_lr=0.1` witho
 The performance is very robust regardless the value of `final_lr`.
 See Appendix G of the paper for more details.
 
+For more examples, you can refer to these [demos](./demos).
+
 ## Citing
 If you use AdaBound in your research, please cite [Adaptive Gradient Methods with Dynamic Bound of Learning Rate](https://openreview.net/forum?id=Bkg3g2R9FX).
 ```text
