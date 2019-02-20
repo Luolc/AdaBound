@@ -15,7 +15,7 @@ As for the final performance on unseen data, AdaBound can achieve better or simi
 compared with SGD, and has a considerable improvement over the adaptive methods.
 
 ## Demo List
-- [CIFAR-10](./cifar10)
+- CIFAR-10 \[[notebook](./cifar10/visualization.ipynb)\] \[[code](./cifar10)\]
 
 ## Future Work
 
