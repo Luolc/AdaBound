@@ -51,8 +51,8 @@ The following is an example to train ResNet-34 using AdaBound with a learning ra
 a final learning rate of 0.1.
 
 ```bash
-python main.py --model=resnet --optim=adaboud --lr=0.001 --final_lr=0.1
+python main.py --model=resnet --optim=adabound --lr=0.001 --final_lr=0.1
 ```
 
-The checkpoints will be saved in `checkpoint` folder and the data points of the learning curve
-will be save in `curve` folder.
+The checkpoints will be saved in the `checkpoint` folder and the data points of the learning curve
+will be save in the `curve` folder.
