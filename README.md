@@ -55,9 +55,9 @@ See Appendix G of the paper for more details.
 
 Thanks to the awesome work by the GitHub team and the Jupyter team, the Jupyter notebook (`.ipynb`)
 files can render directly on GitHub.
-We provide several notebooks (like [this one](./demos/cifar10/visualization.ipynb)) for you to
-easily get the usage of the optimizer.
-We also want to illustrate the robust performance of AdaBound through these examples.
+We provide several notebooks (like [this one](./demos/cifar10/visualization.ipynb)) for better
+visualization.
+We hope to illustrate the robust performance of AdaBound through these examples.
 
 For the full list of demos, please refer to [this page](./demos).
 
