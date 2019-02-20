@@ -2,7 +2,7 @@
 
 Here we provide some demos of using AdaBound on several benchmark tasks.
 The purpose of these demos is to give an example of how to use it your research, and also
-illustrate the rubost performance of AdaBound.
+illustrate the robust performance of AdaBound.
 
 In short, AdaBound can be regarded as an optimizer that dynamically transforms from Adam to SGD as
 the training step becomes larger.
