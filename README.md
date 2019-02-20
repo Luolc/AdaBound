@@ -11,7 +11,7 @@ Based on Luo et al. (2019).
 [Adaptive Gradient Methods with Dynamic Bound of Learning Rate](https://openreview.net/forum?id=Bkg3g2R9FX).
 In *Proc. of ICLR 2019*.
 
-## Links
+## Quick Links
 
 - [Website](https://www.luolc.com/publications/adabound/)
 - [Demos](./demos)
@@ -51,7 +51,15 @@ For most cases, you can just use the default hyperparameter `final_lr=0.1` witho
 The performance is very robust regardless the value of `final_lr`.
 See Appendix G of the paper for more details.
 
-For more examples, you can refer to these [demos](./demos).
+## Demos
+
+Thanks to the awesome work by the GitHub team and the Jupyter team, the Jupyter notebook (`.ipynb`)
+files can be render directly on GitHub.
+We provide several notebooks (like [this one](./demos/cifar10/visualization.ipynb)) for you to
+easily get the usage of the optimizer.
+We also want to illustrate the rubost performance of AdaBound through these examples.
+
+For the full list of demos, please refer to [this page](./demos).
 
 ## Citing
 If you use AdaBound in your research, please cite [Adaptive Gradient Methods with Dynamic Bound of Learning Rate](https://openreview.net/forum?id=Bkg3g2R9FX).
