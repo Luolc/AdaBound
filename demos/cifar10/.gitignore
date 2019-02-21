@@ -1,5 +1,6 @@
 data
 checkpoint
-curve
+curve/*
+!curve/pretrained
 
 main.sh
