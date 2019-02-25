@@ -11,6 +11,10 @@ Based on Luo et al. (2019).
 [Adaptive Gradient Methods with Dynamic Bound of Learning Rate](https://openreview.net/forum?id=Bkg3g2R9FX).
 In *Proc. of ICLR 2019*.
 
+<p align='center'>
+  <img src='https://www.luolc.com/assets/research/adabound/adabound-banner.png' width="60%"/>
+</p>
+
 ## Quick Links
 
 - [Website](https://www.luolc.com/publications/adabound/)
