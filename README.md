@@ -46,10 +46,17 @@ optimizer = adabound.AdaBound(model.parameters(), lr=1e-3, final_lr=0.1)
 As described in the paper, AdaBound is an optimizer that behaves like Adam at the beginning of
 training, and gradually transforms to SGD at the end.
 The `final_lr` parameter indicates AdaBound would transforms to an SGD with this learning rate.
-
-For most cases, you can just use the default hyperparameter `final_lr=0.1` without tuning it. 
-The performance is very robust regardless the value of `final_lr`.
+In common cases, a default final learning rate of `0.1` can achieve relatively good and stable
+results on unseen data.
+It is not very sensitive to its hyperparameters.
 See Appendix G of the paper for more details.
+
+Despite of its robust performance, we still have to state that, **there is no silver bullet**.
+It does not mean that you will be free from tuning hyperparameters once using AdaBound.
+The performance of a model depends on so many things including the task, the model structure,
+the distribution of data, and etc.
+**You still need to decide what hyperparameters to use based on your specific situation,
+but you may probably use much less time than before!**
 
 ## Demos
 
