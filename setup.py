@@ -1,6 +1,6 @@
 from setuptools import setup
 
-__VERSION__ = '0.0.4'
+__VERSION__ = '0.0.5'
 
 setup(name='adabound',
       version=__VERSION__,
