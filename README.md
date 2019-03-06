@@ -85,5 +85,9 @@ If you use AdaBound in your research, please cite [Adaptive Gradient Methods wit
 }
 ```
 
+## Contributors
+
+[@kayuksel](https://github.com/kayuksel)
+
 ## License
 [Apache 2.0](./LICENSE)
