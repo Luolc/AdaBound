@@ -231,4 +231,4 @@ class AdaBoundW(Optimizer):
                 else:
                     p.data.add_(-step_size)
 
-                return loss
+        return loss
